@@ -1,0 +1,141 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DominikCzech(272725)\\source\\repos\\HurtownieProjekt\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C30495C9-3B15-6CB4-D29A-C259C009AF4E}|HurtownieProjekt\\HurtownieProjekt.dwproj|C:\\Users\\DominikCzech(272725)\\source\\repos\\HurtownieProjekt\\HurtownieProjekt\\Projekt.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{C30495C9-3B15-6CB4-D29A-C259C009AF4E}|HurtownieProjekt\\HurtownieProjekt.dwproj|solutionrelative:HurtownieProjekt\\Projekt.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C30495C9-3B15-6CB4-D29A-C259C009AF4E}|HurtownieProjekt\\HurtownieProjekt.dwproj|C:\\Users\\DominikCzech(272725)\\source\\repos\\HurtownieProjekt\\HurtownieProjekt\\Projekt.dsv||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{C30495C9-3B15-6CB4-D29A-C259C009AF4E}|HurtownieProjekt\\HurtownieProjekt.dwproj|solutionrelative:HurtownieProjekt\\Projekt.dsv||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C30495C9-3B15-6CB4-D29A-C259C009AF4E}|HurtownieProjekt\\HurtownieProjekt.dwproj|C:\\Users\\DominikCzech(272725)\\source\\repos\\HurtownieProjekt\\HurtownieProjekt\\Dim IUCR.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{C30495C9-3B15-6CB4-D29A-C259C009AF4E}|HurtownieProjekt\\HurtownieProjekt.dwproj|solutionrelative:HurtownieProjekt\\Dim IUCR.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C30495C9-3B15-6CB4-D29A-C259C009AF4E}|HurtownieProjekt\\HurtownieProjekt.dwproj|C:\\Users\\DominikCzech(272725)\\source\\repos\\HurtownieProjekt\\HurtownieProjekt\\Dim_CrimeFlags.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{C30495C9-3B15-6CB4-D29A-C259C009AF4E}|HurtownieProjekt\\HurtownieProjekt.dwproj|solutionrelative:HurtownieProjekt\\Dim_CrimeFlags.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C30495C9-3B15-6CB4-D29A-C259C009AF4E}|HurtownieProjekt\\HurtownieProjekt.dwproj|C:\\Users\\DominikCzech(272725)\\source\\repos\\HurtownieProjekt\\HurtownieProjekt\\Dim Location.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{C30495C9-3B15-6CB4-D29A-C259C009AF4E}|HurtownieProjekt\\HurtownieProjekt.dwproj|solutionrelative:HurtownieProjekt\\Dim Location.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C30495C9-3B15-6CB4-D29A-C259C009AF4E}|HurtownieProjekt\\HurtownieProjekt.dwproj|C:\\Users\\DominikCzech(272725)\\source\\repos\\HurtownieProjekt\\HurtownieProjekt\\Dim Date.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{C30495C9-3B15-6CB4-D29A-C259C009AF4E}|HurtownieProjekt\\HurtownieProjekt.dwproj|solutionrelative:HurtownieProjekt\\Dim Date.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C30495C9-3B15-6CB4-D29A-C259C009AF4E}|HurtownieProjekt\\HurtownieProjekt.dwproj|C:\\Users\\DominikCzech(272725)\\source\\repos\\HurtownieProjekt\\HurtownieProjekt\\Dim Time Of Day.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{C30495C9-3B15-6CB4-D29A-C259C009AF4E}|HurtownieProjekt\\HurtownieProjekt.dwproj|solutionrelative:HurtownieProjekt\\Dim Time Of Day.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C30495C9-3B15-6CB4-D29A-C259C009AF4E}|HurtownieProjekt\\HurtownieProjekt.dwproj|C:\\Users\\DominikCzech(272725)\\source\\repos\\HurtownieProjekt\\HurtownieProjekt\\Dim Ward Demographics.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{C30495C9-3B15-6CB4-D29A-C259C009AF4E}|HurtownieProjekt\\HurtownieProjekt.dwproj|solutionrelative:HurtownieProjekt\\Dim Ward Demographics.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Projekt.dsv [Design]",
+              "DocumentMoniker": "C:\\Users\\DominikCzech(272725)\\source\\repos\\HurtownieProjekt\\HurtownieProjekt\\Projekt.dsv",
+              "RelativeDocumentMoniker": "HurtownieProjekt\\Projekt.dsv",
+              "ToolTip": "C:\\Users\\DominikCzech(272725)\\source\\repos\\HurtownieProjekt\\HurtownieProjekt\\Projekt.dsv [Design]",
+              "RelativeToolTip": "HurtownieProjekt\\Projekt.dsv [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-01T15:47:31.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Projekt.cube [Design]",
+              "DocumentMoniker": "C:\\Users\\DominikCzech(272725)\\source\\repos\\HurtownieProjekt\\HurtownieProjekt\\Projekt.cube",
+              "RelativeDocumentMoniker": "HurtownieProjekt\\Projekt.cube",
+              "ToolTip": "C:\\Users\\DominikCzech(272725)\\source\\repos\\HurtownieProjekt\\HurtownieProjekt\\Projekt.cube [Design]",
+              "RelativeToolTip": "HurtownieProjekt\\Projekt.cube [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-31T18:48:26.377Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dim_CrimeFlags.dim [Design]",
+              "DocumentMoniker": "C:\\Users\\DominikCzech(272725)\\source\\repos\\HurtownieProjekt\\HurtownieProjekt\\Dim_CrimeFlags.dim",
+              "RelativeDocumentMoniker": "HurtownieProjekt\\Dim_CrimeFlags.dim",
+              "ToolTip": "C:\\Users\\DominikCzech(272725)\\source\\repos\\HurtownieProjekt\\HurtownieProjekt\\Dim_CrimeFlags.dim [Design]",
+              "RelativeToolTip": "HurtownieProjekt\\Dim_CrimeFlags.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-02T00:12:50.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dim IUCR.dim [Design]",
+              "DocumentMoniker": "C:\\Users\\DominikCzech(272725)\\source\\repos\\HurtownieProjekt\\HurtownieProjekt\\Dim IUCR.dim",
+              "RelativeDocumentMoniker": "HurtownieProjekt\\Dim IUCR.dim",
+              "ToolTip": "C:\\Users\\DominikCzech(272725)\\source\\repos\\HurtownieProjekt\\HurtownieProjekt\\Dim IUCR.dim [Design]",
+              "RelativeToolTip": "HurtownieProjekt\\Dim IUCR.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-01T16:14:16.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dim Location.dim [Design]",
+              "DocumentMoniker": "C:\\Users\\DominikCzech(272725)\\source\\repos\\HurtownieProjekt\\HurtownieProjekt\\Dim Location.dim",
+              "RelativeDocumentMoniker": "HurtownieProjekt\\Dim Location.dim",
+              "ToolTip": "C:\\Users\\DominikCzech(272725)\\source\\repos\\HurtownieProjekt\\HurtownieProjekt\\Dim Location.dim [Design]",
+              "RelativeToolTip": "HurtownieProjekt\\Dim Location.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-31T18:49:07.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Dim Date.dim [Design]",
+              "DocumentMoniker": "C:\\Users\\DominikCzech(272725)\\source\\repos\\HurtownieProjekt\\HurtownieProjekt\\Dim Date.dim",
+              "RelativeDocumentMoniker": "HurtownieProjekt\\Dim Date.dim",
+              "ToolTip": "C:\\Users\\DominikCzech(272725)\\source\\repos\\HurtownieProjekt\\HurtownieProjekt\\Dim Date.dim [Design]",
+              "RelativeToolTip": "HurtownieProjekt\\Dim Date.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-01T16:07:19.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Dim Time Of Day.dim [Design]",
+              "DocumentMoniker": "C:\\Users\\DominikCzech(272725)\\source\\repos\\HurtownieProjekt\\HurtownieProjekt\\Dim Time Of Day.dim",
+              "RelativeDocumentMoniker": "HurtownieProjekt\\Dim Time Of Day.dim",
+              "ToolTip": "C:\\Users\\DominikCzech(272725)\\source\\repos\\HurtownieProjekt\\HurtownieProjekt\\Dim Time Of Day.dim [Design]",
+              "RelativeToolTip": "HurtownieProjekt\\Dim Time Of Day.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-31T18:49:48.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Dim Ward Demographics.dim [Design]",
+              "DocumentMoniker": "C:\\Users\\DominikCzech(272725)\\source\\repos\\HurtownieProjekt\\HurtownieProjekt\\Dim Ward Demographics.dim",
+              "RelativeDocumentMoniker": "HurtownieProjekt\\Dim Ward Demographics.dim",
+              "ToolTip": "C:\\Users\\DominikCzech(272725)\\source\\repos\\HurtownieProjekt\\HurtownieProjekt\\Dim Ward Demographics.dim [Design]",
+              "RelativeToolTip": "HurtownieProjekt\\Dim Ward Demographics.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-01T13:32:00.782Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

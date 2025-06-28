@@ -1,0 +1,96 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>HurtownieProjekt</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>F2iTXIk7rhjx+1nN8loflFu/6OA=5/31/2025 8:48:08 PM5/31/2025 8:48:08 PM</TimeStamp>
+        <ID>
+          <String>Projekt</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>L4b8IarMoQPFVfAtmc5vRm3Os3M=6/2/2025 6:19:34 AM5/31/2025 8:48:16 PM</TimeStamp>
+        <ID>
+          <String>Projekt</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>IxUbloWbHhtjhqUoY584HheoPSk=6/2/2025 3:43:39 AM5/31/2025 8:48:26 PM</TimeStamp>
+        <ID>
+          <String>Dim Location</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>fT+V6JakNYwie9rS/D9EyuhBdNk=6/1/2025 6:09:57 PM5/31/2025 8:48:26 PM</TimeStamp>
+        <ID>
+          <String>Dim Time Of Day</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>HGv9rU4Un70M47MnoxDyRjm/7KU=6/2/2025 2:38:17 AM5/31/2025 8:48:26 PM</TimeStamp>
+        <ID>
+          <String>Dim Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>dSvI52wdDX/kMmzPZbXQmv/cRDc=6/1/2025 8:27:09 PM5/31/2025 8:48:26 PM</TimeStamp>
+        <ID>
+          <String>Dim IUCR</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>0HBV3ueyqyoTPljim5DPUjEHUP4=6/1/2025 6:13:40 PM6/1/2025 3:32:00 PM</TimeStamp>
+        <ID>
+          <String>Dim Ward Demographics</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>INaGiJR8AZwV3raGj2YkNPOH9JA=6/2/2025 2:17:01 AM6/2/2025 2:12:50 AM</TimeStamp>
+        <ID>
+          <String>Dim_CrimeFlags</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>9i6CRwxio8PBfCfVqwTqsk26Deg=6/2/2025 8:15:39 AM5/31/2025 8:48:26 PMx8n7dyI3E82/hrzDCethfaM4eKU=6/2/2025 6:23:13 AM5/31/2025 8:48:26 PM</TimeStamp>
+        <ID>
+          <String>Projekt</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>vsTA3sSYwLPiED3JV/pct4+sBrM=5/31/2025 8:47:38 PM5/31/2025 8:47:38 PM</TimeStamp>
+      <ID>
+        <String>HurtownieProjekt</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2025-06-02T06:15:48.096667Z</LastDeployed>
+</DeploymentSnapshot>

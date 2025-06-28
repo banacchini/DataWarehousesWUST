@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "lista4", "lista4\lista4.dwproj", "{15B2E05C-ED52-EB36-AF7E-F89C1A750D37}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Deployment|Default = Deployment|Default
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15B2E05C-ED52-EB36-AF7E-F89C1A750D37}.Deployment|Default.ActiveCfg = Deployment
+		{15B2E05C-ED52-EB36-AF7E-F89C1A750D37}.Deployment|Default.Build.0 = Deployment
+		{15B2E05C-ED52-EB36-AF7E-F89C1A750D37}.Deployment|Default.Deploy.0 = Deployment
+		{15B2E05C-ED52-EB36-AF7E-F89C1A750D37}.Development|Default.ActiveCfg = Development
+		{15B2E05C-ED52-EB36-AF7E-F89C1A750D37}.Development|Default.Build.0 = Development
+		{15B2E05C-ED52-EB36-AF7E-F89C1A750D37}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FE2FD547-5B38-44C4-B596-682D3C751B96}
+	EndGlobalSection
+EndGlobal

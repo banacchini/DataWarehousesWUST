@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="DESKTOP-145RABA.Projekt"
+  DTS:DTSID="{B4BB16E2-0685-4F74-A917-36A73B4B3FE2}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=DESKTOP-145RABA;Initial Catalog=Projekt;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Projekt_ETL-{B4BB16E2-0685-4F74-A917-36A73B4B3FE2}DESKTOP-145RABA.Projekt;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

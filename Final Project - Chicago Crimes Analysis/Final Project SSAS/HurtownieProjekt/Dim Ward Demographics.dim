@@ -1,0 +1,229 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="8da4bf2e-a7f0-403e-94a0-9eee63621a77" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim Ward Demographics</ID>
+  <Name>Dim Ward Demographics</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1282" scrolltop="-4212" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="8954" y="15579" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_WardDemographics" left="-806" top="-4086" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3577" height="3387" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000f90d00003b0d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="Projekt_Dim_WardDemographics" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1282</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-4212</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-806</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-4086</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="d8f01f08-8508-4243-aef0-2e42e067ecfc">
+    <DataSourceViewID>Projekt</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="4cf3660f-fabb-4074-85fd-ff58582e12cc">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="ba970fd7-e8f7-479a-9c8c-a5e03182c3a2">
+      <ID>Ward</ID>
+      <Name>Ward</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5797d575-a399-4c3e-ad11-ca2ecc9bc25f">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="111f1c38-33b9-440f-a192-8000df8b1c5a">
+            <TableID>Projekt_Dim_WardDemographics</TableID>
+            <ColumnID>Ward</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="ee32d5b9-386d-43f5-a31f-fd98a4303e69">
+          <AttributeID>Total Population</AttributeID>
+          <Name>Total Population</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="f5ce77b4-370e-4591-a5d7-8d8b02eb8c5c">
+          <AttributeID>Economic Status</AttributeID>
+          <Name>Economic Status</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c84052b2-c6b1-4b91-b574-08be6580b1d4">
+          <AttributeID>Age Type</AttributeID>
+          <Name>Age Type</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="385ed66f-bcdf-43e8-a975-6bb8a10acd41">
+          <AttributeID>Gender Balance</AttributeID>
+          <Name>Gender Balance</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="cf8e330b-9118-4b08-a736-6a0986cc5047">
+          <AttributeID>Ethnic Type</AttributeID>
+          <Name>Ethnic Type</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="4b49ec4f-1de4-4f2e-bace-9bda9175541a">
+          <AttributeID>Dominant Ethnicity</AttributeID>
+          <Name>Dominant Ethnicity</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="501de8b8-c8c5-4d6b-9510-d1f756193e93">
+      <ID>Total Population</ID>
+      <Name>Total Population</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="260ab603-335a-4cf8-b6a8-358f9de6d5c2">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4357c50d-fcbc-43aa-9976-1538ac31dbd8">
+            <TableID>Projekt_Dim_WardDemographics</TableID>
+            <ColumnID>total_population</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d8b9e18b-2a13-4544-909d-dfdb033d0412">
+      <ID>Economic Status</ID>
+      <Name>Economic Status</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1d673f65-8b23-4268-98e9-6463f4086d22">
+          <DataType>WChar</DataType>
+          <DataSize>15</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="233f1711-400a-42c7-ba01-2e0591aca70f">
+            <TableID>Projekt_Dim_WardDemographics</TableID>
+            <ColumnID>economic_status</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="0c8d7124-31e1-4dae-a0db-0059929b66e9">
+      <ID>Age Type</ID>
+      <Name>Age Type</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="bbf4893d-c081-4359-ab23-ef9822d7bb29">
+          <DataType>WChar</DataType>
+          <DataSize>25</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="96df2717-e982-4b4c-9cd3-1c8382747e6b">
+            <TableID>Projekt_Dim_WardDemographics</TableID>
+            <ColumnID>age_type</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="37785858-9217-40af-8db4-f6c3adca2fde">
+      <ID>Gender Balance</ID>
+      <Name>Gender Balance</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c133bedd-349a-4d99-81ef-3f1369e5b798">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4b32872e-5d63-43ef-95c1-80f73b95e480">
+            <TableID>Projekt_Dim_WardDemographics</TableID>
+            <ColumnID>gender_balance</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="41ad0172-04b4-4761-abbf-ab3831678fc0">
+      <ID>Ethnic Type</ID>
+      <Name>Ethnic Type</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="7066a950-d14e-45f8-a86c-fde57c0a39aa">
+          <DataType>WChar</DataType>
+          <DataSize>15</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ff146502-6100-4ac8-9b0c-ae9525909cba">
+            <TableID>Projekt_Dim_WardDemographics</TableID>
+            <ColumnID>ethnic_type</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="864b8c67-1990-4b80-ab96-3c2e69610fb4">
+      <ID>Dominant Ethnicity</ID>
+      <Name>Dominant Ethnicity</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="06bc0da3-45d8-4ee0-9c06-7d41668750c0">
+          <DataType>WChar</DataType>
+          <DataSize>30</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8206de67-5eea-4b37-9f17-e0bf3e97de95">
+            <TableID>Projekt_Dim_WardDemographics</TableID>
+            <ColumnID>dominant_ethnicity</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

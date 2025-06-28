@@ -1,0 +1,437 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="1336a0e2-b69c-499b-ad72-ab5722f585b4" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Projekt</ID>
+  <Name>Projekt</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout>
+              <dds>
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="24" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2556" scrolltop="-816" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="77" x="17674" y="13102" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                  <font>
+                    <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+                  </font>
+                  <mouseicon>
+                    <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                  </mouseicon>
+                </diagram>
+                <layoutmanager>
+                  <ddsxmlobj />
+                </layoutmanager>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Date" left="5976" top="0" logicalid="12" controlid="1" masterid="0" hint1="0" hint2="0" width="3112" height="3747" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000280c0000a30e0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="Projekt_Dim_Date" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_IUCR" left="5976" top="11934" logicalid="13" controlid="2" masterid="0" hint1="0" hint2="0" width="4022" height="2667" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000b60f00006b0a0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="Projekt_Dim_IUCR" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Location" left="201" top="2894" logicalid="14" controlid="3" masterid="0" hint1="0" hint2="0" width="3175" height="4106" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000670c00000a100000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="Projekt_Dim_Location" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_TimeOfDay" left="11376" top="6687" logicalid="15" controlid="4" masterid="0" hint1="0" hint2="0" width="3366" height="2307" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000260d000003090000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="Projekt_Dim_TimeOfDay" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_WardDemographics" left="0" top="9400" logicalid="16" controlid="5" masterid="0" hint1="0" hint2="0" width="3577" height="3387" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000f90d00003b0d0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="Projekt_Dim_WardDemographics" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Fact_Crime" left="5976" top="6147" logicalid="17" controlid="6" masterid="0" hint1="0" hint2="0" width="3000" height="3387" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000b80b00003b0d0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="Projekt_Fact_Crime" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="7176" top="9234" logicalid="18" controlid="7" masterid="0" hint1="0" hint2="0" width="1211" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FK_Fact_Crime_IUCR]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="6" sourceattachpoint="6" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="7987" y="11934" />
+                    <point x="7987" y="10734" />
+                    <point x="7476" y="10734" />
+                    <point x="7476" y="9534" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="7133" top="3248" logicalid="19" controlid="8" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FK_Fact_Crime_Date]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="6" sourceattachpoint="5" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="7532" y="3747" />
+                    <point x="7532" y="4947" />
+                    <point x="7476" y="4947" />
+                    <point x="7476" y="6147" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="8676" top="7441" logicalid="20" controlid="9" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FK_Fact_Crime_TimeOfDay]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="6" sourceattachpoint="12" destattachpoint="15" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="11376" y="7840" />
+                    <point x="8976" y="7840" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="3076" top="4548" logicalid="21" controlid="10" masterid="0" hint1="0" hint2="0" width="3200" height="3592" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FK_Fact_Crime_Location]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="6" sourceattachpoint="17" destattachpoint="14" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="3376" y="4947" />
+                    <point x="4676" y="4947" />
+                    <point x="4676" y="7840" />
+                    <point x="5976" y="7840" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="1389" top="6700" logicalid="22" controlid="11" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FK_Location_WardDemographics]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="3" sourceattachpoint="6" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="1788" y="9400" />
+                    <point x="1788" y="7000" />
+                  </connector>
+                </ddscontrol>
+              </dds>
+</DiagramLayout>
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>-2556</DiagramViewPortLeft>
+            <DiagramViewPortTop>-816</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>77</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Projekt</DataSourceID>
+  <Schema>
+    <xs:schema id="Projekt" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Projekt" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="3d3c8332-7ee7-4d37-8be1-48ab25bd36cf">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="Projekt_Dim_Date" msprop:DbSchemaName="Projekt" msprop:design-time-name="98933df6-14a4-439f-8c7b-e4bc04ed4a77" msprop:FriendlyName="Dim_Date" msprop:TableType="Table" msprop:DbTableName="Dim_Date">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="DateID" msprop:FriendlyName="DateID" msprop:DbColumnName="DateID" msprop:design-time-name="bd0fa48b-4e50-44de-b341-a8aca07bb71f" type="xs:int" />
+                  <xs:element name="FullDate" msprop:FriendlyName="FullDate" msprop:DbColumnName="FullDate" msprop:design-time-name="d8bd64a7-ebb9-47ca-a730-4f7093cc9da0" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="Day" msprop:FriendlyName="Day" msprop:DbColumnName="Day" msprop:design-time-name="f2168fd3-bf65-4af2-91e4-5a4f820b1ea0" type="xs:int" minOccurs="0" />
+                  <xs:element name="Month" msprop:FriendlyName="Month" msprop:DbColumnName="Month" msprop:design-time-name="e3845625-f587-4430-b517-1c9f3dfecb6f" type="xs:int" minOccurs="0" />
+                  <xs:element name="MonthName" msprop:FriendlyName="MonthName" msprop:DbColumnName="MonthName" msprop:design-time-name="a633cb62-7706-4189-a44b-66564325f45b" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="15" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Quarter" msprop:FriendlyName="Quarter" msprop:DbColumnName="Quarter" msprop:design-time-name="2f1b4006-d6d0-4eab-beb2-d098af748cb4" type="xs:int" minOccurs="0" />
+                  <xs:element name="Year" msprop:FriendlyName="Year" msprop:DbColumnName="Year" msprop:design-time-name="f8f56559-667b-4179-9548-7670cef5ee3a" type="xs:int" minOccurs="0" />
+                  <xs:element name="WeekdayName" msprop:FriendlyName="WeekdayName" msprop:DbColumnName="WeekdayName" msprop:design-time-name="0dbee71c-91de-4027-8510-167997d388c3" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="15" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="Projekt_Dim_IUCR" msprop:DbSchemaName="Projekt" msprop:design-time-name="b866eb1a-bdc5-45b0-910c-e6d2ca9345ae" msprop:FriendlyName="Dim_IUCR" msprop:TableType="Table" msprop:DbTableName="Dim_IUCR">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="IUCR_Code" msprop:FriendlyName="IUCR_Code" msprop:DbColumnName="IUCR_Code" msprop:design-time-name="a9141c7d-1090-454d-9166-1ce7e5b8b296">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="4" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="PrimaryDescription" msprop:FriendlyName="PrimaryDescription" msprop:DbColumnName="PrimaryDescription" msprop:design-time-name="f8024f1d-5c67-431f-b836-5793a046dc58" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="SecondaryDescription" msprop:FriendlyName="SecondaryDescription" msprop:DbColumnName="SecondaryDescription" msprop:design-time-name="3f3edbc1-e486-46e4-8d54-eb366e42a969" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="IndexCode" msprop:FriendlyName="IndexCode" msprop:DbColumnName="IndexCode" msprop:design-time-name="01fcb12e-9428-40e1-8258-9878ee61e221" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="1" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="IsViolent" msprop:FriendlyName="IsViolent" msprop:DbColumnName="IsViolent" msprop:design-time-name="14bfe18b-708f-42fe-ae79-21e09af8c975" type="xs:boolean" minOccurs="0" />
+                  <xs:element name="CrimeCategory" msdata:ReadOnly="true" msprop:DbColumnName="CrimeCategory" msprop:IsLogical="True" msprop:design-time-name="dc3369b4-f313-4f49-a94e-c6c26912ed4c" msprop:Description="" msprop:ComputedColumnExpression="CASE [PrimaryDescription]&#xD;&#xA;    WHEN 'ASSAULT' THEN 'Violent Crime'&#xD;&#xA;    WHEN 'BATTERY' THEN 'Violent Crime'&#xD;&#xA;    WHEN 'CRIMINAL SEXUAL ASSAULT' THEN 'Violent Crime'&#xD;&#xA;    WHEN 'HOMICIDE' THEN 'Violent Crime'&#xD;&#xA;    WHEN 'KIDNAPPING' THEN 'Violent Crime'&#xD;&#xA;    WHEN 'STALKING' THEN 'Violent Crime'&#xD;&#xA;    WHEN 'INTIMIDATION' THEN 'Violent Crime'&#xD;&#xA;    WHEN 'SEX OFFENSE' THEN 'Violent Crime'&#xD;&#xA;    WHEN 'ROBBERY' THEN 'Violent Crime'&#xD;&#xA;&#xD;&#xA;    WHEN 'BURGLARY' THEN 'Property Crime'&#xD;&#xA;    WHEN 'THEFT' THEN 'Property Crime'&#xD;&#xA;    WHEN 'MOTOR VEHICLE THEFT' THEN 'Property Crime'&#xD;&#xA;    WHEN 'ARSON' THEN 'Property Crime'&#xD;&#xA;    WHEN 'CRIMINAL DAMAGE' THEN 'Property Crime'&#xD;&#xA;    WHEN 'CRIMINAL TRESPASS' THEN 'Property Crime'&#xD;&#xA;&#xD;&#xA;    WHEN 'NARCOTICS' THEN 'Drug/Alcohol Offense'&#xD;&#xA;    WHEN 'OTHER NARCOTIC VIOLATION' THEN 'Drug/Alcohol Offense'&#xD;&#xA;    WHEN 'LIQUOR LAW VIOLATION' THEN 'Drug/Alcohol Offense'&#xD;&#xA;&#xD;&#xA;    WHEN 'PUBLIC PEACE VIOLATION' THEN 'Public Order Crime'&#xD;&#xA;    WHEN 'WEAPONS VIOLATION' THEN 'Public Order Crime'&#xD;&#xA;    WHEN 'GAMBLING' THEN 'Public Order Crime'&#xD;&#xA;    WHEN 'OBSCENITY' THEN 'Public Order Crime'&#xD;&#xA;    WHEN 'RITUALISM' THEN 'Public Order Crime'&#xD;&#xA;    WHEN 'PUBLIC INDECENCY' THEN 'Public Order Crime'&#xD;&#xA;&#xD;&#xA;    WHEN 'DECEPTIVE PRACTICE' THEN 'Fraud and Regulatory Violations'&#xD;&#xA;    WHEN 'CONCEALED CARRY LICENSE VIOLATION' THEN 'Fraud and Regulatory Violations'&#xD;&#xA;&#xD;&#xA;    WHEN 'PROSTITUTION' THEN 'Sex Work / Human'&#xD;&#xA;    WHEN 'HUMAN TRAFFICKING' THEN 'Sex Work / Human'&#xD;&#xA;    WHEN 'OFFENSE INVOLVING CHILDREN' THEN 'Sex Work / Human'&#xD;&#xA;    WHEN 'CRIMINAL ABORTION' THEN 'Sex Work / Human'&#xD;&#xA;&#xD;&#xA;    WHEN 'INTERFERENCE WITH PUBLIC OFFICER' THEN 'Police/Admin Offense'&#xD;&#xA;    WHEN 'NON-CRIMINAL' THEN 'Police/Admin Offense'&#xD;&#xA;&#xD;&#xA;    ELSE 'Other'&#xD;&#xA;END">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="31" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="SeverityWeight" msdata:ReadOnly="true" msprop:Description="" msprop:design-time-name="e46f7084-f3a9-4f65-bea6-83dbba6fcbe7" msprop:IsLogical="True" msprop:DbColumnName="SeverityWeight" msprop:ComputedColumnExpression="CASE [PrimaryDescription]&#xD;&#xA;    WHEN 'HOMICIDE' THEN 1.5&#xD;&#xA;    WHEN 'CRIMINAL SEXUAL ASSAULT' THEN 1.5&#xD;&#xA;    WHEN 'KIDNAPPING' THEN 1.4&#xD;&#xA;    WHEN 'ASSAULT' THEN 1.4&#xD;&#xA;    WHEN 'BATTERY' THEN 1.3&#xD;&#xA;    WHEN 'ROBBERY' THEN 1.3&#xD;&#xA;    WHEN 'HUMAN TRAFFICKING' THEN 1.3&#xD;&#xA;    WHEN 'SEX OFFENSE' THEN 1.3&#xD;&#xA;    WHEN 'STALKING' THEN 1.2&#xD;&#xA;    WHEN 'INTIMIDATION' THEN 1.2&#xD;&#xA;    WHEN 'ARSON' THEN 1.2&#xD;&#xA;    WHEN 'WEAPONS VIOLATION' THEN 1.2&#xD;&#xA;    WHEN 'BURGLARY' THEN 1.1&#xD;&#xA;    WHEN 'MOTOR VEHICLE THEFT' THEN 1.1&#xD;&#xA;    WHEN 'THEFT' THEN 1.0&#xD;&#xA;    WHEN 'CRIMINAL DAMAGE' THEN 1.0&#xD;&#xA;    WHEN 'CRIMINAL TRESPASS' THEN 0.9&#xD;&#xA;    WHEN 'NARCOTICS' THEN 0.9&#xD;&#xA;    WHEN 'OTHER NARCOTIC VIOLATION' THEN 0.9&#xD;&#xA;    WHEN 'LIQUOR LAW VIOLATION' THEN 0.8&#xD;&#xA;    WHEN 'GAMBLING' THEN 0.8&#xD;&#xA;    WHEN 'PUBLIC PEACE VIOLATION' THEN 0.8&#xD;&#xA;    WHEN 'CONCEALED CARRY LICENSE VIOLATION' THEN 0.8&#xD;&#xA;    WHEN 'PROSTITUTION' THEN 0.8&#xD;&#xA;    WHEN 'OFFENSE INVOLVING CHILDREN' THEN 1.1&#xD;&#xA;    WHEN 'PUBLIC INDECENCY' THEN 0.7&#xD;&#xA;    WHEN 'OBSCENITY' THEN 0.7&#xD;&#xA;    WHEN 'RITUALISM' THEN 0.7&#xD;&#xA;    WHEN 'CRIMINAL ABORTION' THEN 0.7&#xD;&#xA;    WHEN 'INTERFERENCE WITH PUBLIC OFFICER' THEN 0.6&#xD;&#xA;    WHEN 'NON-CRIMINAL' THEN 0.5&#xD;&#xA;    WHEN 'OTHER OFFENSE' THEN 0.5&#xD;&#xA;    ELSE 0.5&#xD;&#xA;END" type="xs:decimal" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="Projekt_Dim_Location" msprop:DbSchemaName="Projekt" msprop:design-time-name="a03aa4bf-696e-4f8e-816b-afa11dec7e55" msprop:FriendlyName="Dim_Location" msprop:TableType="Table" msprop:DbTableName="Dim_Location">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="LocationID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="LocationID" msprop:DbColumnName="LocationID" msprop:design-time-name="4f3ccec5-943e-4847-875f-44d4633dbb32" type="xs:int" />
+                  <xs:element name="Latitude" msprop:FriendlyName="Latitude" msprop:DbColumnName="Latitude" msprop:design-time-name="c51b2cd7-8592-490f-a85c-c53444f1ac1e" type="xs:double" minOccurs="0" />
+                  <xs:element name="Longitude" msprop:FriendlyName="Longitude" msprop:DbColumnName="Longitude" msprop:design-time-name="f000aba9-3c49-4cdd-b569-7180b923d11b" type="xs:double" minOccurs="0" />
+                  <xs:element name="CommunityArea" msprop:FriendlyName="CommunityArea" msprop:DbColumnName="CommunityArea" msprop:design-time-name="bc0f2b17-0961-45be-928c-13037ef89f2b" type="xs:int" minOccurs="0" />
+                  <xs:element name="District" msprop:FriendlyName="District" msprop:DbColumnName="District" msprop:design-time-name="033ca1f7-4fc3-4b81-b6de-05ef0fc388b6" type="xs:int" minOccurs="0" />
+                  <xs:element name="Beat" msprop:FriendlyName="Beat" msprop:DbColumnName="Beat" msprop:design-time-name="b79127b0-0516-4889-8e47-b8645f1dea2a" type="xs:int" minOccurs="0" />
+                  <xs:element name="Ward" msprop:FriendlyName="Ward" msprop:DbColumnName="Ward" msprop:design-time-name="b0f1e346-8392-4e4b-93e8-0756270c54d0" type="xs:int" minOccurs="0" />
+                  <xs:element name="coordinateX" msprop:FriendlyName="coordinateX" msprop:DbColumnName="coordinateX" msprop:design-time-name="62e2e501-1084-4d58-ad71-bfbed69f7b57" type="xs:int" minOccurs="0" />
+                  <xs:element name="coordinateY" msprop:FriendlyName="coordinateY" msprop:DbColumnName="coordinateY" msprop:design-time-name="16733799-4b1d-44eb-8545-00a6938d2698" type="xs:int" minOccurs="0" />
+                  <xs:element name="LatitudeRounded" msdata:ReadOnly="true" msprop:DbColumnName="LatitudeRounded" msprop:IsLogical="True" msprop:ComputedColumnExpression="ROUND(Latitude, 5)" msprop:design-time-name="64a2fa80-9917-48a6-8e83-a72825fe6c66" msprop:Description="" type="xs:double" minOccurs="0" />
+                  <xs:element name="LongtitudeRounded" msdata:ReadOnly="true" msprop:DbColumnName="LongtitudeRounded" msprop:IsLogical="True" msprop:ComputedColumnExpression="ROUND(Longitude, 5)" msprop:design-time-name="2cada9a7-722b-48d2-ad57-7257a4ede74f" msprop:Description="" type="xs:double" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="Projekt_Dim_TimeOfDay" msprop:DbSchemaName="Projekt" msprop:design-time-name="8ddc783c-63c4-4444-9aed-e71c6b4f0d75" msprop:FriendlyName="Dim_TimeOfDay" msprop:TableType="Table" msprop:DbTableName="Dim_TimeOfDay">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="TimeOfDayID" msprop:FriendlyName="TimeOfDayID" msprop:DbColumnName="TimeOfDayID" msprop:design-time-name="dcd0ee5b-a2a7-4015-86f7-4b45b9423d31" type="xs:int" />
+                  <xs:element name="TimeOfDayName" msprop:FriendlyName="TimeOfDayName" msprop:DbColumnName="TimeOfDayName" msprop:design-time-name="49e51783-6c80-467f-80ad-2a6422fc0eb5" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="HourStart" msprop:FriendlyName="HourStart" msprop:DbColumnName="HourStart" msprop:design-time-name="81873f78-5da5-47ba-8d9f-a083742d4b4d" type="xs:int" minOccurs="0" />
+                  <xs:element name="HourEnd" msprop:FriendlyName="HourEnd" msprop:DbColumnName="HourEnd" msprop:design-time-name="6a849644-6b0a-4138-808e-a63811800272" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="Projekt_Dim_WardDemographics" msprop:DbSchemaName="Projekt" msprop:design-time-name="38a5f358-5587-4d52-9ee3-b331928cf043" msprop:FriendlyName="Dim_WardDemographics" msprop:TableType="Table" msprop:DbTableName="Dim_WardDemographics">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Ward" msprop:FriendlyName="Ward" msprop:DbColumnName="Ward" msprop:design-time-name="b96bbf09-6182-4eb7-9be8-6314f8b2ea4e" type="xs:int" />
+                  <xs:element name="total_population" msprop:FriendlyName="total_population" msprop:DbColumnName="total_population" msprop:design-time-name="030198b9-a9f8-4634-b878-a366541faf11" type="xs:int" minOccurs="0" />
+                  <xs:element name="economic_status" msprop:FriendlyName="economic_status" msprop:DbColumnName="economic_status" msprop:design-time-name="ae87cd22-775c-4697-9332-e18f4e577a15" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="15" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="age_type" msprop:FriendlyName="age_type" msprop:DbColumnName="age_type" msprop:design-time-name="293e789d-ebea-4f66-931c-83420641a2d1" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="25" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="gender_balance" msprop:FriendlyName="gender_balance" msprop:DbColumnName="gender_balance" msprop:design-time-name="0d7d4cf1-2f48-4312-9fad-a5da84c918e2" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ethnic_type" msprop:FriendlyName="ethnic_type" msprop:DbColumnName="ethnic_type" msprop:design-time-name="112db3e9-4043-4702-b730-a39f4cbf84c6" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="15" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="dominant_ethnicity" msprop:FriendlyName="dominant_ethnicity" msprop:DbColumnName="dominant_ethnicity" msprop:design-time-name="5293cfcc-1ac7-4b45-a7f2-306ce940fa70" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="Projekt_Fact_Crime" msprop:DbSchemaName="Projekt" msprop:design-time-name="29158255-d69c-4e18-b014-420981f77fc7" msprop:FriendlyName="Fact_Crime" msprop:TableType="Table" msprop:DbTableName="Fact_Crime">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="CrimeID" msprop:FriendlyName="CrimeID" msprop:DbColumnName="CrimeID" msprop:design-time-name="4e4a2194-7747-4a79-ab5c-7e7e65abe8d0" type="xs:int" />
+                  <xs:element name="DateID" msprop:FriendlyName="DateID" msprop:DbColumnName="DateID" msprop:design-time-name="f210f227-3ef4-469b-af1d-ff631297e198" type="xs:int" minOccurs="0" />
+                  <xs:element name="TimeOfDayID" msprop:FriendlyName="TimeOfDayID" msprop:DbColumnName="TimeOfDayID" msprop:design-time-name="b9cff99b-b8de-4969-8259-27ce7c058bcc" type="xs:int" minOccurs="0" />
+                  <xs:element name="LocationID" msprop:FriendlyName="LocationID" msprop:DbColumnName="LocationID" msprop:design-time-name="489fccbe-d5ce-4f23-9d11-f7ca0700e259" type="xs:int" minOccurs="0" />
+                  <xs:element name="IUCR" msprop:FriendlyName="IUCR" msprop:DbColumnName="IUCR" msprop:design-time-name="f45e61e1-095c-4aa1-84aa-3d71d5ee45d5" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="4" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Arrested" msprop:FriendlyName="Arrested" msprop:DbColumnName="Arrested" msprop:design-time-name="4f64de6e-211d-4bdd-afe1-d1cf0d138140" type="xs:int" minOccurs="0" />
+                  <xs:element name="Domestic" msprop:FriendlyName="Domestic" msprop:DbColumnName="Domestic" msprop:design-time-name="c80cc1cb-e757-49db-885f-4862cf84561c" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//Projekt_Dim_Date" />
+          <xs:field xpath="DateID" />
+        </xs:unique>
+        <xs:unique name="Projekt_Dim_IUCR_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//Projekt_Dim_IUCR" />
+          <xs:field xpath="IUCR_Code" />
+        </xs:unique>
+        <xs:unique name="Projekt_Dim_Location_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//Projekt_Dim_Location" />
+          <xs:field xpath="LocationID" />
+        </xs:unique>
+        <xs:unique name="Projekt_Dim_TimeOfDay_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//Projekt_Dim_TimeOfDay" />
+          <xs:field xpath="TimeOfDayID" />
+        </xs:unique>
+        <xs:unique name="Projekt_Dim_WardDemographics_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//Projekt_Dim_WardDemographics" />
+          <xs:field xpath="Ward" />
+        </xs:unique>
+        <xs:unique name="Projekt_Fact_Crime_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//Projekt_Fact_Crime" />
+          <xs:field xpath="CrimeID" />
+        </xs:unique>
+        <xs:keyref name="FK_Fact_Crime_Location" refer="Projekt_Dim_Location_Constraint1">
+          <xs:selector xpath=".//Projekt_Fact_Crime" />
+          <xs:field xpath="LocationID" />
+        </xs:keyref>
+        <xs:keyref name="FK_Fact_Crime_TimeOfDay" refer="Projekt_Dim_TimeOfDay_Constraint1">
+          <xs:selector xpath=".//Projekt_Fact_Crime" />
+          <xs:field xpath="TimeOfDayID" />
+        </xs:keyref>
+        <xs:keyref name="FK_Fact_Crime_Date" refer="Constraint1">
+          <xs:selector xpath=".//Projekt_Fact_Crime" />
+          <xs:field xpath="DateID" />
+        </xs:keyref>
+        <xs:keyref name="FK_Fact_Crime_IUCR" refer="Projekt_Dim_IUCR_Constraint1">
+          <xs:selector xpath=".//Projekt_Fact_Crime" />
+          <xs:field xpath="IUCR" />
+        </xs:keyref>
+        <xs:keyref name="FK_Location_WardDemographics" refer="Projekt_Dim_WardDemographics_Constraint1">
+          <xs:selector xpath=".//Projekt_Dim_Location" />
+          <xs:field xpath="Ward" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <Projekt xmlns="" />
+  </Schema>
+</DataSourceView>

@@ -1,0 +1,227 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="ebd8c401-625b-4122-8fbf-ac702487dd40" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim IUCR</ID>
+  <Name>Dim IUCR</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1059" scrolltop="-12072" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="6181" y="11811" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_IUCR" left="-1017" top="-11832" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="4022" height="2667" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b60f00006b0a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="Projekt_Dim_IUCR" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1059</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-12072</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-1017</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-11832</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="dfaea86d-8d10-4283-8110-84efda758d92">
+    <DataSourceViewID>Projekt</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="c6c5f04a-194a-41ed-a098-7ea2bdf7e092">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="2daae6d2-1007-49d0-93f9-40079feaaefb">
+      <ID>IUCR Code</ID>
+      <Name>IUCR Code</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8717236d-3bad-4e0b-8bef-a0065a055aa3">
+          <DataType>WChar</DataType>
+          <DataSize>4</DataSize>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="05c4d12c-c1c2-43c3-a72e-cbed85c09946">
+            <TableID>Projekt_Dim_IUCR</TableID>
+            <ColumnID>IUCR_Code</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="7d860f3d-7c47-4fd7-89c7-e177f93422ea">
+          <AttributeID>Primary Description</AttributeID>
+          <Name>Primary Description</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="80e8bee4-fa95-43c4-925e-16965a8c1683">
+          <AttributeID>Secondary Description</AttributeID>
+          <Name>Secondary Description</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="844c72d0-54f3-41b1-83ad-b889b41dd43f">
+          <AttributeID>Index Code</AttributeID>
+          <Name>Index Code</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="31cde7fe-93d0-410c-810e-b8278a372a7a">
+          <AttributeID>Is Violent</AttributeID>
+          <Name>Is Violent</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="6e39fc8c-2515-4086-a6ec-8fe6d50e51c9">
+          <AttributeID>Crime Category</AttributeID>
+          <Name>Crime Category</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="1950e071-b70d-40ce-9677-015f81265fed">
+      <ID>Primary Description</ID>
+      <Name>Primary Description</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b550fe44-72ec-41a0-b9b3-57f5ce627b8e">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6f19f63d-e6d1-49b0-961e-2673fe5d2452">
+            <TableID>Projekt_Dim_IUCR</TableID>
+            <ColumnID>PrimaryDescription</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c6d2e6a3-a68d-49cd-9508-1a8b82b6603a">
+      <ID>Secondary Description</ID>
+      <Name>Secondary Description</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="115ed68b-a210-41a8-9be3-0fab0f5f06be">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1c1c4c65-3ca8-4415-9ee5-7ec4bd098b90">
+            <TableID>Projekt_Dim_IUCR</TableID>
+            <ColumnID>SecondaryDescription</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e8572270-c12a-427f-9f85-9bdb8f1432e0">
+      <ID>Index Code</ID>
+      <Name>Index Code</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d0df5a6f-edde-4560-8589-c4ef2c7d4872">
+          <DataType>WChar</DataType>
+          <DataSize>1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="67ca978f-36ed-4a2e-9028-7805531a5f15">
+            <TableID>Projekt_Dim_IUCR</TableID>
+            <ColumnID>IndexCode</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="66673bb8-d718-4154-a143-146dde835376">
+      <ID>Is Violent</ID>
+      <Name>Is Violent</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="84fd4e38-6f81-413a-9d26-d2c98aa76616">
+          <DataType>Boolean</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="53333a29-0eaf-40bd-8166-85f37821fa02">
+            <TableID>Projekt_Dim_IUCR</TableID>
+            <ColumnID>IsViolent</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="432ae60d-891a-4cd5-acfc-8fd731c46918">
+      <ID>Crime Category</ID>
+      <Name>Crime Category</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="557b78f1-5ff0-49ff-bad1-3943cffa8923">
+          <DataType>WChar</DataType>
+          <DataSize>31</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c82d4b4d-3d10-42f2-a524-a76fe8af5c66">
+            <TableID>Projekt_Dim_IUCR</TableID>
+            <ColumnID>CrimeCategory</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="40e4c896-6466-4120-bf81-f8286c05456c">
+      <ID>Hierarchy</ID>
+      <Name>Hierarchy</Name>
+      <Levels>
+        <Level dwd:design-time-name="878b218b-8ce8-4c6b-863b-9b20e893b1f2">
+          <ID>Crime Category</ID>
+          <Name>Crime Category</Name>
+          <SourceAttributeID>Crime Category</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="de86951f-520f-41a4-91df-7696736f866e">
+          <ID>Primary Description</ID>
+          <Name>Primary Description</Name>
+          <SourceAttributeID>Primary Description</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="82b852aa-1783-44ff-a6f1-88d45b035eb7">
+          <ID>Secondary Description</ID>
+          <Name>Secondary Description</Name>
+          <SourceAttributeID>Secondary Description</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

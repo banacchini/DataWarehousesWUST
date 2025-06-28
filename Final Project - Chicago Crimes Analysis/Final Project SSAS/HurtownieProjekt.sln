@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "HurtownieProjekt", "HurtownieProjekt\HurtownieProjekt.dwproj", "{C30495C9-3B15-6CB4-D29A-C259C009AF4E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C30495C9-3B15-6CB4-D29A-C259C009AF4E}.Development|Default.ActiveCfg = Development
+		{C30495C9-3B15-6CB4-D29A-C259C009AF4E}.Development|Default.Build.0 = Development
+		{C30495C9-3B15-6CB4-D29A-C259C009AF4E}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {61E2F8AA-817A-4C31-85E5-762136803DEF}
+	EndGlobalSection
+EndGlobal
